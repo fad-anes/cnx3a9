@@ -18,7 +18,7 @@ public class Main {
         //ps.delete(p2);
         //ps.readall().forEach(System.out::println);
         //ps.update(p2);
-        System.out.println(ps.ReadById(5));
+        System.out.println(ps.ReadById(1));
 
 
     }

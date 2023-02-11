@@ -85,10 +85,10 @@ public class servicepersonne implements Iservice<Personne>{
 
             Statement st=conn.createStatement();
             ResultSet rs=st.executeQuery(requete0);
-            while(rs.next()){
+            rs.next();
             Personne p=new Personne(rs.getInt("id"), rs.getString(2),
                     rs.getString("prenom"), rs.getInt("age"));
-            p0=p;}
+            p0=p;
         } catch (SQLException ex) {
             Logger.getLogger(servicepersonne.class.getName()).log(Level.SEVERE, null, ex);
         }
