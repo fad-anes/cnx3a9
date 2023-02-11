@@ -79,7 +79,20 @@ public class servicepersonne implements Iservice<Personne>{
 
     @Override
     public Personne ReadById(int id) {
+        Personne p0=new Personne();
+        String requete0="select * from personne WHERE id="+id;
+        try {
 
-        return null;
+            Statement st=conn.createStatement();
+            ResultSet rs=st.executeQuery(requete0);
+            while(rs.next()){
+            Personne p=new Personne(rs.getInt("id"), rs.getString(2),
+                    rs.getString("prenom"), rs.getInt("age"));
+            p0=p;}
+        } catch (SQLException ex) {
+            Logger.getLogger(servicepersonne.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return p0;
     }
 }
