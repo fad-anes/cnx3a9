@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83512b3e-4a27-4568-a406-dd178bea5491" name="Changes" comment="add function readbyid">
+    <list default="true" id="83512b3e-4a27-4568-a406-dd178bea5491" name="Changes" comment="creating branch">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/cnx3a9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jui/Addpersonne.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jui/Addpersonnecontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jui/Afficherpersonne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jui/afficherpersonne.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jui/testfxmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/servicepersonne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/servicepersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnx3a9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cnx3a9.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,17 +40,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anes_/OneDrive/Bureau/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/java/javafx-sdk-19.0.2.1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
-}</component>
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager">
+    <configuration name="testfxmain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="jui.testfxmain" />
+      <module name="cnx3a9" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\anes_\OneDrive\Bureau\javafx-sdk-19.0.2.1\lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676150859414</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified function readbyid">
+      <created>1676151041789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676151041789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +122,11 @@
     <MESSAGE value="creation d'architecture de project" />
     <MESSAGE value="add function insert delete readall" />
     <MESSAGE value="add function readbyid" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function readbyid" />
+    <MESSAGE value="modified function readbyid" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified function readbyid" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
